@@ -6,6 +6,7 @@ Toolchain:
 - Bundler: Webpack
 - Compiler: Babel
 - HMR: React-hot-loader
+- Linter: ESlint
 
 
 
