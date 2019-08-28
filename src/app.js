@@ -12,7 +12,7 @@ class App extends Component{
         <ul>
           <li>Bundler: Webpack</li>
           <li>Compiler: Babel</li>
-          <li>RHMR: React-hot-loader</li>
+          <li>HMR: React-hot-loader</li>
         </ul>
       </div>
     );
