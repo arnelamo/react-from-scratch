@@ -17,6 +17,16 @@ cd <your-project-name>
 npm install
 ```
 
+Now, remove the old origin and create your own:
+
+```bash
+git remote rm origin
+hub create
+git add .
+git commit -m "(your commit message)"
+git push origin master
+```
+
 
 ## Start Wepack Dev Server with HMR (react-hot-loader)
 
@@ -28,3 +38,5 @@ npm start
 ## Open localhost in Chrome
 
 Open a new Chrome tab and go to [localhost:3000](http://localhost:3000) 🚀 Yeah!
+
+Now, if everything is set up correctly, your client should update automatically when you save.
