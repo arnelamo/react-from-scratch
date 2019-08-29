@@ -13,6 +13,7 @@ class App extends Component{
           <li>Bundler: Webpack</li>
           <li>Compiler: Babel</li>
           <li>HMR: React-hot-loader</li>
+          <li>Linter: ESlint</li>
         </ul>
       </div>
     );
